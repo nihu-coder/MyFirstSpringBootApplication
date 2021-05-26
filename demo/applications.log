@@ -1,0 +1,58 @@
+INFO : Scanning for projects...
+INFO : 
+INFO : ---------------< org.example:ExceptionFrequencyChecker >----------------
+WARN : Building Exception Frequency Checker 1.0-SNAPSHOT
+INFO : --------------------------------[ jar ]---------------------------------
+INFO : 
+INFO : --- maven-clean-plugin:3.1.0:clean (default-clean) @ ExceptionFrequencyChecker ---
+INFO : Deleting /Users/shreyasjain/Desktop/repo/ExceptionFrequencyChecker/target
+INFO : 
+INFO : --- maven-resources-plugin:3.2.0:resources (default-resources) @ ExceptionFrequencyChecker ---
+INFO : Using 'UTF-8' encoding to copy filtered resources.
+INFO : Using 'UTF-8' encoding to copy filtered properties files.
+INFO : Copying 1 resource
+INFO : Copying 7 resources
+INFO : 
+DEBUG : --- maven-compiler-plugin:3.8.1:compile (default-compile) @ ExceptionFrequencyChecker ---
+DEBUG : Changes detected - recompiling the module!
+DEBUG : Compiling 17 source files to /Users/shreyasjain/Desktop/repo/ExceptionFrequencyChecker/target/classes
+INFO : 
+INFO : --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ ExceptionFrequencyChecker ---
+INFO : Using 'UTF-8' encoding to copy filtered resources.
+INFO : Using 'UTF-8' encoding to copy filtered properties files.
+INFO : skip non existing resourceDirectory /Users/shreyasjain/Desktop/repo/ExceptionFrequencyChecker/src/test/resources
+INFO : 
+INFO : --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ ExceptionFrequencyChecker ---
+INFO : Changes detected - recompiling the module!
+INFO : 
+INFO : --- maven-surefire-plugin:2.22.2:test (default-test) @ ExceptionFrequencyChecker ---
+INFO : 
+INFO : --- maven-jar-plugin:3.2.0:jar (default-jar) @ ExceptionFrequencyChecker ---
+INFO : Building jar: /Users/shreyasjain/Desktop/repo/ExceptionFrequencyChecker/target/ExceptionFrequencyChecker-1.0-SNAPSHOT.jar
+INFO : 
+INFO : --- spring-boot-maven-plugin:2.4.4:repackage (repackage) @ ExceptionFrequencyChecker ---
+INFO : Replacing main artifact with repackaged archive
+INFO : 
+INFO : --- maven-install-plugin:2.5.2:install (default-install) @ ExceptionFrequencyChecker ---
+ERROR : Installing /Users/shreyasjain/Desktop/repo/ExceptionFrequencyChecker/target/ExceptionFrequencyChecker-1.0-SNAPSHOT.jar to /Users/shreyasjain/.m2/repository/org/example/ExceptionFrequencyChecker/1.0-SNAPSHOT/ExceptionFrequencyChecker-1.0-SNAPSHOT.jar
+ERROR : Installing /Users/shreyasjain/Desktop/repo/ExceptionFrequencyChecker/pom.xml to /Users/shreyasjain/.m2/repository/org/example/ExceptionFrequencyChecker/1.0-SNAPSHOT/ExceptionFrequencyChecker-1.0-SNAPSHOT.pom
+INFO : 
+INFO : >>> spring-boot-maven-plugin:2.4.4:run (default-cli) > test-compile @ ExceptionFrequencyChecker >>> ERROR ERROR ERROR
+INFO : 
+INFO : --- maven-resources-plugin:3.2.0:resources (default-resources) @ ExceptionFrequencyChecker ---
+INFO : Using 'UTF-8' encoding to copy filtered resources.
+INFO : Using 'UTF-8' encoding to copy filtered properties files.
+INFO : Copying 1 resource
+INFO : Copying 7 resources
+INFO : 
+INFO : --- maven-compiler-plugin:3.8.1:compile (default-compile) @ ExceptionFrequencyChecker ---
+INFO : Changes detected - recompiling the module!
+INFO : Compiling 17 source files to /Users/shreyasjain/Desktop/repo/ExceptionFrequencyChecker/target/classes
+INFO : 
+INFO : --- maven-resources-plugin:3.2.0:testResources (default-testResources) @ ExceptionFrequencyChecker ---
+INFO : Using 'UTF-8' encoding to copy filtered resources.
+INFO : Using 'UTF-8' encoding to copy filtered properties files.
+INFO : skip non existing resourceDirectory /Users/shreyasjain/Desktop/repo/ExceptionFrequencyChecker/src/test/resources
+INFO : 
+ERROR : --- maven-compiler-plugin:3.8.1:testCompile (default-testCompile) @ ExceptionFrequencyChecker ---
+ERROR : Changes detected - recompiling the module!
